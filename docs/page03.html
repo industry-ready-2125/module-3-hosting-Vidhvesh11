@@ -4,9 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services</title>
-    <link rel="stylesheet" href="genres.css">
     <link rel="icon" type="image/x-icon" href="images/android-chrome-512x512.png">
     <script src="https://kit.fontawesome.com/48cb4deb02.js" crossorigin="anonymous"></script>
+    <script>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Madimi+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.2s linear;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    background: url('images/davisuko-5E5N49RWtbA-unsplash.jpg');
+    padding:15px 9%;
+    padding-bottom: 100px;
+    background-position: center;
+    background-size: cover;
+}
+.container .heading{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Madimi One', cursive;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 15px;
+    text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    font-size: 50px;
+}
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:15px;
+    margin-top: 10px;
+
+}
+.container .box-container .box{
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    padding: 25px 10px;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: transparent;     
+    text-align: center;   
+}
+.container .box-container .box i{
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 10px;
+}
+.container .box-container .box h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding:10px 0;
+    color:rgb(235, 201, 52);
+}
+.container .box-container .box p{
+    color: #000;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* margin-bottom: 20px; */
+    font-size: 20px;
+    font-weight: 100;
+    /* padding:10px 0; */
+}
+.container .box-container .box .btn{
+    display: inline-block;
+    padding: 8px 25px;
+    background: rgb(235, 201, 52);
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+.container .box-container .box .btn:hover{
+    letter-spacing: 1px;
+}
+.container .box-container .box:hover{
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    transform: scale(1.03);
+}
+
+
+    </script>
 </head>
 <body>
     <div class="container">
