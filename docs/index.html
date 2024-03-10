@@ -5,7 +5,149 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harbinger - Make it big</title>
     <link rel="icon" type="image/x-icon" href="images/android-chrome-512x512.png">
-    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Madimi+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('images/davisuko-5E5N49RWtbA-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+h2{
+    width: 180px;
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Madimi One', cursive;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    color: rgb(230, 191, 20);
+    /* text-decoration: underline; */
+}
+.btn{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Madimi One', cursive;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border:0;
+    outline:0;
+    border-radius: 5px;
+    background: white;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn:hover{
+    background: rgb(230, 191, 20);
+    color: white;
+}
+.btn a{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Madimi One', cursive;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 200;
+}
+.content{
+    margin-top: 4%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 0;
+    color: white;
+    margin-left: 10%;
+}
+.content h1{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Madimi One', cursive;
+    font-size: 75px;
+    font-weight: 600;
+    text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    line-height: 85px;
+    /* margin-bottom: 10px; */
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.content h2{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Madimi One', cursive;
+    font-size: 75px;
+    font-weight: 600;
+    text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    color: rgb(230, 191, 20);
+}
+.content p{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Madimi One', cursive;
+    max-width: 80%;
+    font-size: 18px;
+    font-weight: 400;
+    text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    margin-top: 12px;
+    box-sizing: border-box;
+    padding-right: 30%;
+}
+.content .buttons{
+    display:grid;
+    grid-template-columns: repeat(2, 130px);
+    grid-template-rows: 40px;
+    gap:5px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.content button{
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content button:nth-child(2){
+    background-color: transparent;
+    border: white 1px solid;
+}
+.content button:hover{
+    background-color: rgb(230, 191, 20);
+    color: white;
+}
+    </style>
 </head>
 <body>
     <div class="container">
@@ -14,10 +156,10 @@
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>
-                <li><a href="genres.html">Genres</a></li>
+                <li><a href="page03.html">Genres</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-            <button class="btn"><a href="login.html" >Login</a></button>
+            <button class="btn"><a href="page02.html" >Login</a></button>
         </nav>
         <div class="content">
             <h1>
